@@ -5,9 +5,6 @@
     {
       "id": "seo",
       "title": "SEO Schema",
-      "environments": [
-        "dev"
-      ],
       "url": "/tools/sidekick/library/library.html",
       "includePaths": [
         "**.docx**"
