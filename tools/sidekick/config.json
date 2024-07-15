@@ -11,7 +11,8 @@
       "url": "/tools/sidekick/library/library.html",
       "includePaths": [
         "**.docx**"
-      ]
+      ],
+      "isPalette": true
     }
   ]
 }
