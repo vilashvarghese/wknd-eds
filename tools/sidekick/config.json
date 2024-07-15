@@ -3,8 +3,11 @@
   "host": "https://main--wknd-eds--vilashvarghese.hlx.live/",
   "plugins": [
     {
-      "id": "library",
-      "title": "Library",
+      "id": "seo",
+      "title": "SEO Schema",
+      "environments": [
+        "dev"
+      ],
       "url": "/tools/sidekick/library/library.html",
       "includePaths": [
         "**.docx**"
