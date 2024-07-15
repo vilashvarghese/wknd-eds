@@ -12,16 +12,17 @@
 
 :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --primary-color: #ffea00;
+  --link-color: var(--primary-color);
+  --link-hover-color: var(--primary-color);
   --background-color: white;
   --light-color: #eee;
   --dark-color: #ccc;
-  --text-color: black;
+  --text-color: #202020;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
-  --heading-font-family: var(--body-font-family);
+  --body-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --heading-font-family: "Asar", Georgia, "Times New Roman", Times, serif;
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
@@ -60,7 +61,7 @@
 }
 
 body {
-  font-size: var(--body-font-size-m);
+  font-size: var(--body-font-size-s);
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
@@ -148,19 +149,17 @@ button {
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 30px;
+  padding: 1em 2.5em;
   text-align: center;
-  font-style: normal;
+  font-size: var(--fontSizeSmall, 14px);
   font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
+  color: var(--text-color, #202020);
   background-color: var(--link-color);
-  margin: 16px 0;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: var(--buttonBorderRadius, 0);
+  text-transform: uppercase;
 }
 
 a.button:hover,
