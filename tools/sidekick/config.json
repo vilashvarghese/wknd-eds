@@ -3,7 +3,7 @@
   "host": "https://main--wknd-eds--vilashvarghese.hlx.live/",
   "plugins": [
     {
-      "id": "seo",
+      "id": "library",
       "title": "SEO Schema",
       "url": "/tools/sidekick/library/library.html",
       "includePaths": [
