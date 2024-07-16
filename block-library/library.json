@@ -1,72 +1,15 @@
 {
   "templates": {
-    "total": 2,
+    "total": 0,
     "offset": 0,
-    "limit": 2,
-    "data": [
-      {
-        "name": "Blog Post",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/templates/post-template"
-      },
-      {
-        "name": "Author Page",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/templates/author-template"
-      }
-    ]
+    "limit": 0,
+    "data": []
   },
   "blocks": {
-    "total": 12,
+    "total": 0,
     "offset": 0,
-    "limit": 12,
+    "limit": 0,
     "data": [
-      {
-        "name": "Columns",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/columns"
-      },
-      {
-        "name": "Embed",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/embed"
-      },
-      {
-        "name": "Featured Posts",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/featured-posts"
-      },
-      {
-        "name": "PDF Viewer",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/pdf-viewer"
-      },
-      {
-        "name": "Post Cards",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/post-cards"
-      },
-      {
-        "name": "Related Content",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/related-content"
-      },
-      {
-        "name": "Table",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/table"
-      },
-      {
-        "name": "Tags",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/tags"
-      },
-      {
-        "name": "Topics",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/topics"
-      },
-      {
-        "name": "Video",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/video"
-      },
-      {
-        "name": "Hero",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/hero"
-      },
-      {
-        "name": "Image",
-        "path": "https://main--wknd-eds--vilashvarghese.hlx.page/block-library/blocks/image"
-      }
     ]
   },
   ":version": 3,
